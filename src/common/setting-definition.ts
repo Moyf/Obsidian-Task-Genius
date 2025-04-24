@@ -520,21 +520,6 @@ export const DEFAULT_SETTINGS: TaskProgressBarSettings = {
 				useMarkdownRenderer: true,
 			} as GanttSpecificConfig,
 		},
-		{
-			id: "gantt",
-			name: t("Plan"),
-			icon: "chart-gantt",
-			type: "default",
-			visible: true,
-			hideCompletedAndAbandonedTasks: false,
-			filterRules: {},
-			filterBlanks: false,
-			specificConfig: {
-				viewType: "gantt",
-				showTaskLabels: true,
-				useMarkdownRenderer: true,
-			} as GanttSpecificConfig,
-		},
 	],
 
 	// Review Settings
